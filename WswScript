@@ -1,0 +1,11 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("PetSimCheats", "DarkTheme")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("PetSimX Main")
+
+
+MainSection:NewButton("PetSimX Main Script", "PetSim", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/coniscoolboissssss2/Nigga-man/main/NiggaLame"))()
+end)
